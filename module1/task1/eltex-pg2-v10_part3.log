@@ -1,0 +1,17 @@
+cd ~
+touch ${USER}_part3.log
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+echo qwerty 12345 >> D1/D2/file.txt
+ln -s D1/D2/file.txt D1/D2/D3/symlink_file.txt
+ln D1/D2/file.txt D1/D2/D3/hardlink_file.txt
+ls -l D1/D2/D3/symlink_file.txt
+ls -l D1/D2/D3/hardlink_file.txt
+mv D1/D2/file.txt D1
+rm -r D1/D2
+find / -type f -size +20M 2> /dev/null >> ${USER}_part3_gt50M.log
+xargs -r -d '\n' -a "$HOME/${USER}_part3_gt50M.log" du -h --apparent-size 2>/dev/null | sort -h
+find ~/ -type f -mtime -1
+which find
+file $(which find)
+file /boot/initrd.img*

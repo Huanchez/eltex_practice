@@ -1,0 +1,26 @@
+echo $HISTFILE
+echo $HISTFILESIZE
+ls -a ~ | grep "^\."
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
+date
+history | tail -5
+cat ~/.bash_history |tail -5
+export PROMPT_COMMAND='history -a'
+date
+cat ~/.bash_history |tail -5
+export DATE=$(date '+%Y-%m-%d')
+echo $DATE
+export TIME=$(date '+%H:%M:%S')
+echo $TIME
+export DATE_TIME="$DATE $TIME"
+exho $DATE_TIME
+cd /bin
+ls -f | grep '[0-9]' | head -5
+cd ..
+cd /sbin
+ls -f | grep '[0-9]' | head -5
+vi ~/.bashrc
+bash
+ls
+mkdir -p $(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}
+ls

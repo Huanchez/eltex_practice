@@ -1,0 +1,406 @@
+﻿Script started on 2025-10-28 11:23:56+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.name ""#Huanchez"#########Huanchez"#
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email ""#pya201204@yandex.ru"##[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# #[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[Cpya201204@yandex.ru"##[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email "pya201204@yandex.ru"#[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email "pya201204@yandex.ru"#[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email "pya201204@yandex.ru"#[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email "pya201204@yandex.ru" #[A#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.email "pya201204@yandex.ru"
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global init.defaultBranchm# main
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global init.defaultBranch main#######################user.email "pya201204@yandex.ru"############################[12Pname "Huanchez"###############email "pya201204@yandex.ru"#################################[9Pinit.defaultBranch main#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C###########clear
+#[?2004l#[H#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# git config --global user.name
+#[?2004lHuanchez
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# clear
+#[?2004l#[H#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# apt install git gh##############update
+#[?2004l0% [Working]            Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+0% [Waiting for headers]                        Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+0% [Waiting for headers] [2 InRelease 14.2 kB/126 kB 11%]0% [Waiting for headers] [2 InRelease 14.2 kB/126 kB 11%]                                                         Get:3 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+0% [3 InRelease 11.8 kB/126 kB 9%] [2 InRelease 14.2 kB/126 kB 11%]                                                                   0% [2 InRelease 66.3 kB/126 kB 53%]0% [Waiting for headers] [2 InRelease 82.2 kB/126 kB 65%]                                                         Get:4 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+0% [4 InRelease 15.4 kB/126 kB 12%] [2 InRelease 93.8 kB/126 kB 74%]                                                                    0% [2 InRelease 96.7 kB/126 kB 77%]0% [Waiting for headers] [2 InRelease 120 kB/126 kB 95%]                                                        0% [Waiting for headers]                        Get:5 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1545 kB]
+0% [5 Packages 4502 B/1545 kB 0%]20% [5 Packages 255 kB/1545 kB 16%]                                   Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1270 kB]
+23% [5 Packages 764 kB/1545 kB 49%] [6 Packages 2655 B/1270 kB 0%]                                                                  Get:7 http://ru.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [294 kB]
+30% [7 Translation-en 231 kB/294 kB 79%] [6 Packages 41.8 kB/1270 kB 3%]30% [5 Packages store 0 B] [7 Translation-en 231 kB/294 kB 79%] [6 Packages 41.8 kB/                                                                                    30% [5 Packages store 0 B] [Waiting for headers] [6 Packages 116 kB/1270 kB 9%]                                                                               Get:8 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+30% [5 Packages store 0 B] [8 Components-amd64 2214 B/175 kB 1%] [6 Packages 116 kB/                                                                                    Get:9 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2175 kB]
+32% [5 Packages store 0 B] [9 Packages 139 kB/2175 kB 6%] [6 Packages 121 kB/1270 kB                                                                                    41% [9 Packages 1269 kB/2175 kB 58%] [6 Packages 253 kB/1270 kB 20%]41% [7 Translation-en store 0 B] [9 Packages 1271 kB/2175 kB 58%] [6 Packages 253 kB                                                                                    Get:10 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [490 kB]
+49% [7 Translation-en store 0 B] [10 Translation-en 270 kB/490 kB 55%] [6 Packages 3                                                                                    50% [7 Translation-en store 0 B] [6 Packages 333 kB/1270 kB 26%]                                                                Get:11 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+50% [7 Translation-en store 0 B] [11 Components-amd64 0 B/212 B 0%] [6 Packages 333                                                                                     50% [7 Translation-en store 0 B] [6 Packages 333 kB/1270 kB 26%]                                                                Get:12 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1498 kB]
+50% [7 Translation-en store 0 B] [12 Packages 0 B/1498 kB 0%] [6 Packages 336 kB/127                                                                                    55% [12 Packages 753 kB/1498 kB 50%] [6 Packages 381 kB/1270 kB 30%]55% [8 Components-amd64 store 0 B] [12 Packages 753 kB/1498 kB 50%] [6 Packages 381                                                                                     61% [8 Components-amd64 store 0 B] [6 Packages 449 kB/1270 kB 35%]                                                                  Get:13 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [303 kB]
+61% [8 Components-amd64 store 0 B] [13 Translation-en 121 kB/303 kB 40%] [6 Packages                                                                                    63% [8 Components-amd64 store 0 B] [6 Packages 457 kB/1270 kB 36%]                                                                  Get:14 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+63% [8 Components-amd64 store 0 B] [14 Components-amd64 0 B/378 kB 0%] [6 Packages 4                                                                                    65% [14 Components-amd64 288 kB/378 kB 76%] [6 Packages 508 kB/1270 kB 40%]65% [9 Packages store 0 B] [14 Components-amd64 288 kB/378 kB 76%] [6 Packages 508 k                                                                                    66% [9 Packages store 0 B] [6 Packages 562 kB/1270 kB 44%]                                                          Get:15 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+                                                          Get:16 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7172 B]
+                                                          Get:17 http://ru.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+                                                          Get:18 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+66% [9 Packages store 0 B] [18 Components-amd64 10.3 kB/11.0 kB 93%] [6 Packages 564                                                                                    Get:19 http://ru.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+66% [9 Packages store 0 B] [19 Components-amd64 162 B/212 B 76%] [6 Packages 579 kB/                                                                                    67% [9 Packages store 0 B] [6 Packages 703 kB/1270 kB 55%]                                                          71% [9 Packages store 0 B]                          71% [Waiting for headers]71% [10 Translation-en store 0 B] [Waiting for headers]                                                       Get:20 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [211 kB]
+71% [10 Translation-en store 0 B] [20 Translation-en 0 B/211 kB 0%]                                                                   72% [10 Translation-en store 0 B]                                 Get:21 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+                                 Get:22 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9008 B]
+                                 Get:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2080 kB]
+72% [10 Translation-en store 0 B] [23 Packages 0 B/2080 kB 0%]                                                              73% [23 Packages 0 B/2080 kB 0%]73% [11 Components-amd64 store 0 B] [23 Packages 0 B/2080 kB 0%]                                                                73% [23 Packages 0 B/2080 kB 0%]73% [12 Packages store 0 B] [23 Packages 0 B/2080 kB 0%]                                                        74% [23 Packages 132 kB/2080 kB 6%]74% [13 Translation-en store 0 B] [23 Packages 132 kB/2080 kB 6%]                                                                 74% [23 Packages 132 kB/2080 kB 6%]74% [14 Components-amd64 store 0 B] [23 Packages 132 kB/2080 kB 6%]                                                                   79% [23 Packages 948 kB/2080 kB 46%]79% [15 Components-amd64 store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                                    79% [23 Packages 948 kB/2080 kB 46%]79% [16 Components-amd64 store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                                    80% [23 Packages 948 kB/2080 kB 46%]80% [17 Components-amd64 store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                                    80% [23 Packages 948 kB/2080 kB 46%]80% [18 Components-amd64 store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                                    80% [23 Packages 948 kB/2080 kB 46%]80% [19 Components-amd64 store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                                    80% [23 Packages 948 kB/2080 kB 46%]80% [6 Packages store 0 B] [23 Packages 948 kB/2080 kB 46%]                                                           85% [23 Packages 1606 kB/2080 kB 77%]85% [20 Translation-en store 0 B] [23 Packages 1606 kB/2080 kB 77%]                                                                   87% [23 Packages 1998 kB/2080 kB 96%]87% [21 Components-amd64 store 0 B] [23 Packages 1998 kB/2080 kB 96%]                                                                     88% [23 Packages 2074 kB/2080 kB 100%]88% [22 Commands-amd64 store 0 B] [23 Packages 2074 kB/2080 kB 100%]                                                                    Get:24 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [470 kB]
+88% [22 Commands-amd64 store 0 B] [24 Translation-en 12.6 kB/470 kB 3%]                                                                       88% [24 Translation-en 12.6 kB/470 kB 3%]88% [23 Packages store 0 B] [24 Translation-en 12.6 kB/470 kB 3%]                                                                 Get:25 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+                                                                 Get:26 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [905 kB]
+                                                                 91% [23 Packages store 0 B] [26 Packages 7768 B/905 kB 1%]                                                          97% [23 Packages store 0 B]                           Get:27 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [203 kB]
+97% [23 Packages store 0 B] [27 Translation-en 17.9 kB/203 kB 9%]                                                                 98% [23 Packages store 0 B]                           Get:28 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+98% [23 Packages store 0 B] [28 Components-amd64 14.3 kB/52.2 kB 27%]                                                                     98% [23 Packages store 0 B]99% [Connecting to security.ubuntu.com (185.125.190.36)]99% [24 Translation-en store 0 B] [Connecting to security.ubuntu.com (185.125.190.36                                                                                    99% [Waiting for headers]99% [25 Components-amd64 store 0 B] [Waiting for headers]                                                         99% [Waiting for headers]99% [26 Packages store 0 B] [Waiting for headers]                                                 99% [Waiting for headers]99% [27 Translation-en store 0 B] [Waiting for headers]                                                       Get:29 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [19.4 kB]
+99% [27 Translation-en store 0 B] [29 Commands-amd64 14.2 kB/19.4 kB 73%]                                                                         99% [29 Commands-amd64 14.2 kB/19.4 kB 73%]99% [28 Components-amd64 store 0 B] [29 Commands-amd64 14.2 kB/19.4 kB 73%]                                                                           100% [29 Commands-amd64 14.2 kB/19.4 kB 73%]                                            100% [Working]100% [29 Commands-amd64 store 0 B] [Waiting for headers]                                                        100% [Waiting for headers]                          Get:30 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+100% [30 Components-amd64 212 B/212 B 100%]                                           100% [Working]100% [30 Components-amd64 store 0 B]                                    100% [Working]              Fetched 12.5 MB in 2s (5737 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 40%Reading package lists... 40%Reading package lists... 55%Reading package lists... 55%Reading package lists... 55%Reading package lists... 55%Reading package lists... 56%Reading package lists... 56%Reading package lists... 60%Reading package lists... 60%Reading package lists... 62%Reading package lists... 62%Reading package lists... 69%Reading package lists... 69%Reading package lists... 73%Reading package lists... 73%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 91%Reading package lists... 91%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+All packages are up to date.
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# apt inc#stall git gh
+#[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+git set to manually installed.
+The following NEW packages will be installed:
+  gh
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8836 kB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gh amd64 2.45.0-1ubuntu0.3 [8836 kB]
+0% [1 gh 6918 B/8836 kB 0%]43% [1 gh 4798 kB/8836 kB 54%]                              100% [Working]              Fetched 8836 kB in 1s (8618 kB/s)
+
+#7#[0;23r#8#[1ASelecting previously unselected package gh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125391 files and directories currently installed.)
+Preparing to unpack .../gh_2.45.0-1ubuntu0.3_amd64.deb ...
+#7#[24;0fProgress: [  0%] [...............................................................] #8#7#[24;0fProgress: [ 20%] [############...................................................] #8Unpacking gh (2.45.0-1ubuntu0.3) ...
+#7#[24;0fProgress: [ 40%] [#########################......................................] #8Setting up gh (2.45.0-1ubuntu0.3) ...
+#7#[24;0fProgress: [ 60%] [#####################################..........................] #8#7#[24;0fProgress: [ 80%] [##################################################.............] #8Processing triggers for man-db (2.12.0-4build2) ...
+
+#7#[0;24r#8#[1AScanning processes... [                                                             ]Scanning processes... [                                                             ]Scanning processes... [=                                                            ]Scanning processes... [=                                                            ]Scanning processes... [==                                                           ]Scanning processes... [==                                                           ]Scanning processes... [===                                                          ]Scanning processes... [===                                                          ]Scanning processes... [====                                                         ]Scanning processes... [====                                                         ]Scanning processes... [=====                                                        ]Scanning processes... [=====                                                        ]Scanning processes... [======                                                       ]Scanning processes... [======                                                       ]Scanning processes... [=======                                                      ]Scanning processes... [=======                                                      ]Scanning processes... [========                                                     ]Scanning processes... [========                                                     ]Scanning processes... [=========                                                    ]Scanning processes... [=========                                                    ]Scanning processes... [==========                                                   ]Scanning processes... [==========                                                   ]Scanning processes... [===========                                                  ]Scanning processes... [===========                                                  ]Scanning processes... [============                                                 ]Scanning processes... [============                                                 ]Scanning processes... [=============                                                ]Scanning processes... [=============                                                ]Scanning processes... [==============                                               ]Scanning processes... [==============                                               ]Scanning processes... [===============                                              ]Scanning processes... [===============                                              ]Scanning processes... [================                                             ]Scanning processes... [================                                             ]Scanning processes... [=================                                            ]Scanning processes... [=================                                            ]Scanning processes... [==================                                           ]Scanning processes... [==================                                           ]Scanning processes... [===================                                          ]Scanning processes... [===================                                          ]Scanning processes... [====================                                         ]Scanning processes... [=====================                                        ]Scanning processes... [=====================                                        ]Scanning processes... [======================                                       ]Scanning processes... [======================                                       ]Scanning processes... [=======================                                      ]Scanning processes... [=======================                                      ]Scanning processes... [========================                                     ]Scanning processes... [========================                                     ]Scanning processes... [=========================                                    ]Scanning processes... [=========================                                    ]Scanning processes... [==========================                                   ]Scanning processes... [==========================                                   ]Scanning processes... [===========================                                  ]Scanning processes... [===========================                                  ]Scanning processes... [============================                                 ]Scanning processes... [============================                                 ]Scanning processes... [=============================                                ]Scanning processes... [=============================                                ]Scanning processes... [==============================                               ]Scanning processes... [==============================                               ]Scanning processes... [===============================                              ]Scanning processes... [===============================                              ]Scanning processes... [================================                             ]Scanning processes... [================================                             ]Scanning processes... [=================================                            ]Scanning processes... [=================================                            ]Scanning processes... [==================================                           ]Scanning processes... [==================================                           ]Scanning processes... [===================================                          ]Scanning processes... [===================================                          ]Scanning processes... [====================================                         ]Scanning processes... [====================================                         ]Scanning processes... [=====================================                        ]Scanning processes... [=====================================                        ]Scanning processes... [======================================                       ]Scanning processes... [======================================                       ]Scanning processes... [=======================================                      ]Scanning processes... [=======================================                      ]Scanning processes... [========================================                     ]Scanning processes... [=========================================                    ]Scanning processes... [=========================================                    ]Scanning processes... [==========================================                   ]Scanning processes... [==========================================                   ]Scanning processes... [===========================================                  ]Scanning processes... [===========================================                  ]Scanning processes... [============================================                 ]Scanning processes... [============================================                 ]Scanning processes... [=============================================                ]Scanning processes... [=============================================                ]Scanning processes... [==============================================               ]Scanning processes... [==============================================               ]Scanning processes... [===============================================              ]Scanning processes... [===============================================              ]Scanning processes... [================================================             ]Scanning processes... [================================================             ]Scanning processes... [=================================================            ]Scanning processes... [=================================================            ]Scanning processes... [==================================================           ]Scanning processes... [==================================================           ]Scanning processes... [===================================================          ]Scanning processes... [===================================================          ]Scanning processes... [====================================================         ]Scanning processes... [====================================================         ]Scanning processes... [=====================================================        ]Scanning processes... [=====================================================        ]Scanning processes... [======================================================       ]Scanning processes... [========================Generating public/private ed25519 key pair.
+Your identification has been saved in /root/.ssh/Huanchez_key
+Your public key has been saved in /root/.ssh/Huanchez_key.pub
+The key fingerprint is:
+SHA256:CUVmBckY4fZR7S9ix4rfZNk7d2oJ6kVtQTZCR14FWTg root@eltex-practice2-pg2-v10
+The key's randomart image is:
++--[ED25519 256]--+
+|      o**+ooo.B==|
+|     ..+o.  .*Eo |
+|      + .  .  o. |
+|     . o o  .. . |
+|        S  ...o  |
+|          o.=+.  |
+|         o ==o.. |
+|        . o=  +.o|
+|         oo ..o+.|
++----[SHA256]-----+
+==============================       ]Scanning processes... [=======================================================      ]Scanning processes... [=======================================================      ]Scanning processes... [========================================================     ]Scanning processes... [========================================================     ]Scanning processes... [=========================================================    ]Scanning processes... [=========================================================    ]Scanning processes... [==========================================================   ]Scanning processes... [==========================================================   ]Scanning processes... [===========================================================  ]Scanning processes... [===========================================================  ]Scanning processes... [============================================================ ]Scanning processes... [=============================================================]Scanning processes...                                                                
+Scanning candidates... [                                                            ]Scanning candidates... [===============                                             ]Scanning candidates... [==============================                              ]Scanning candidates... [=============================================               ]Scanning candidates... [============================================================]Scanning candidates...                                                               
+Scanning linux images... [                                                          ]Scanning linux images... [==============                                            ]Scanning linux images... [=============================                             ]Scanning linux images... [===========================================               ]Scanning linux images... [==========================================================]Scanning linux images...                                                             
+
+Pending kernel upgrade!
+Running kernel version:
+  6.8.0-55-generic
+Diagnostics:
+  The currently running kernel version is not the expected kernel version
+6.8.0-86-generic.
+
+Restarting the system to load the new kernel will not be handled automatically, so
+you should consider rebooting.
+
+Restarting services...
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# cl###clear
+#[?2004l#[H#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# ssh-keygen -t ed25519 -f ~/.ssh/Huanchez_key >> pr#actice2_eltex-pg2-v10_part3.log 
+#[?2004lEnter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# gh auth login
+#[?2004l#7#[?25l#8#[0G? What account do you want to log into?  [Use arrows to move, type to filter]
+> GitHub.com
+  GitHub Enterprise Server
+#7#[1A#[0G#[1A#[0G#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G? What account do you want to log into?  [Use arrows to move, type to filter]
+  GitHub.com
+> GitHub Enterprise Server
+#7#[1A#[0G#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G? What account do you want to log into?  [Use arrows to move, type to filter]
+> GitHub.com
+  GitHub Enterprise Server
+#7#[1A#[0G#[1A#[0G#8#[?25h#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G? What account do you want to log into? GitHub.com
+#7#[?25l#8#[0G? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+> HTTPS
+  SSH
+#7#[1A#[0G#[1A#[0G#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G#[1A#[0G? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+  HTTPS
+> SSH
+#7#[1A#[0G#8#[?25h#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G#[1A#[0G? What is your preferred protocol for Git operations on this host? SSH
+#7#[?25l#8#[0G? Upload your SSH public key to your GitHub account?  [Use arrows to move, type to filter]
+> /root/.ssh/Huanchez_key.pub
+  Skip
+#7#[1A#[0G#[1A#[0G#8#[?25h#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G#[1A#[0G? Upload your SSH public key to your GitHub account? /root/.ssh/Huanchez_key.pub
+#[0G? Title for your SSH key: (GitHub CLI) #[?25l#[?25l#7#[999;999f#[6n#8#[?25h#[6neltex-practice1-pg2-vq#[1D10#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#7#[1D-pg2-v10#[1B#[0G#8#[1D#72-pg2-v10#8#[6n#[1C#[1C#[1C#[1C#[1C#[1C#[1C#[1C#[1C###[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1D#[1B#[0G#[1A#[?25h#[0G? Title for your SSH key: eltex-practice2-pg2-v10
+#7#[?25l#8#[0G? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
+> Login with a web browser
+  Paste an authentication token
+#7#[1A#[0G#[1A#[0G#8#[?25h#8#[0G#[1A#[0G#[1A#[0G#[1A#[0G#[1A#[0G? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: D26B-66F4
+Press Enter to open github.com in your browser... 
+! Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+
+✓ Authentication complete.
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocol
+! Authentication credentials saved in plain text
+✓ Uploaded the SSH key to your GitHub account: /root/.ssh/Huanchez_key.pub
+✓ Logged in as Huanchez
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# 
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# gh au#th setup-git --hostname github.com
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# gh auth status
+#[?2004lgithub.com
+  ✓ Logged in to github.com account Huanchez (/root/.config/gh/hosts.yml)
+  - Active account: true
+  - Git operations protocol: ssh
+  - Token: gho_************************************
+  - Token scopes: 'admin:public_key', 'gist', 'read:org', 'repo'
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# пр кузщ скуфеу####################gh repo create --public eltex -##_pracice
+#[?2004l✓ Created repository Huanchez/eltex_pracice on GitHub
+  https://github.com/Huanchez/eltex_pracice
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# mk #dir ~/##############cla#ear
+#[?2004l#[H#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# clear######mk####mkdir ###########################ls
+#[?2004letc_backup          etc_backup_gzip
+etc_backup.tar.7z   etc_motd
+etc_backup.tar.bz2  practice2_eltex-pg2-v10_part1.log
+etc_backup.tar.gz   practice2_eltex-pg2-v10_part2.log
+etc_backup_7zip     practice2_eltex-pg2-v10_part3.log
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# mkdir ~/eltex-pra####_practice $$##@@##&& cd ~/elrex###tex-practice
+#[?2004lbash: cd: /root/eltex-practice: No such file or directory
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# cd .#/root/
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# ls
+#[?2004leltex_practice      etc_backup.tar.gz  practice2_eltex-pg2-v10_part1.log
+etc_backup          etc_backup_7zip    practice2_eltex-pg2-v10_part2.log
+etc_backup.tar.7z   etc_backup_gzip    practice2_eltex-pg2-v10_part3.log
+etc_backup.tar.bz2  etc_motd
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# ls##cd /root/#########mkdir ~/eltex_practice && cd ~/eltex-practice
+#[?2004lmkdir: cannot create directory ‘/root/eltex_practice’: File exists
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# rm eltex_practice/
+#[?2004lrm: cannot remove 'eltex_practice/': Is a directory
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# кьвшк#########rmdir eltex_practice/
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# clear
+#[?2004l#[H#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# clear#####rmdir eltex_practice/####################[3P eltex_practice/##################mkdir ~/eltex_practice && cd ~/eltex-practice
+#[?2004lbash: cd: /root/eltex-practice: No such file or directory
+#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# rmdi#############mkdir ~/eltex_practice && cd ~/eltex-practice#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[Cclear#####rmdir eltex_practice/
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~#root@eltex-practice2-pg2-v10:~# rmdir eltex_practice/#####################mkdir ~/eltex_practice && cd ~/eltex-practice#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[Cclear#####mkdir ~/eltex_practice && cd ~/eltex-practice##########[1Ppractice########_practice########
+#[?2004l#[?2004h#]0;root@eltex-practice2-pg2-v10: ~/eltex_practice#root@eltex-practice2-pg2-v10:~/eltex_practice# echo ""#j"###[1P"#О"#с"#е"#н"#н"#я"#я"# "#п"#р"#а"#к"#т"#и"#к"#а"# "#У"###[1P"#E"#l"###[1P"###[1P"###[1P"#в"# "###[1P"###[1P"# "#в"# "#E"#l"#t"#e"#x"# "#2"#0"#2"#5"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"###[1P"####[1P"###[1P"###[1P"###[1P"###[1P"#########################mkdir ~/eltex_practice && cd ~/eltex_practice#[A#]0;root@eltex-practice2-pg2-v10: ~/eltex_practice#root@eltex-practice2-pg2-v10:~/eltex_practice# "
+
+Script started on 2025-10-28 13:38:33+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="106" LINES="24"]
+[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# cd eltex_practice/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# clear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git ststatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	module1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# cd module1/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1root@eltex-practice2-pg2-v10:~/eltex_practice/module1# cd module1/[1Pgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1root@eltex-practice2-pg2-v10:~/eltex_practice/module1# ls
+[?2004ltask1  task2  task3
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1root@eltex-practice2-pg2-v10:~/eltex_practice/module1# cd task1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ls
+[?2004leltex-pg2-v10_part.log  eltex-pg2-v10_part3.log  eltex-pg2-v10_part3_gt50M.log  report_part1.txt
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# lscd task1lsgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# git add* *
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   eltex-pg2-v10_part.log
+	new file:   eltex-pg2-v10_part3.log
+	new file:   eltex-pg2-v10_part3_gt50M.log
+	new file:   report_part1.txt
+
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# git commit -m "'"A"d"d" "f"i"r"s"t" "p"r"a"c"t"i"c"e"
+[?2004l[main f585785] Add first practice
+ 4 files changed, 57 insertions(+)
+ create mode 100644 module1/task1/eltex-pg2-v10_part.log
+ create mode 100644 module1/task1/eltex-pg2-v10_part3.log
+ create mode 100644 module1/task1/eltex-pg2-v10_part3_gt50M.log
+ create mode 100644 module1/task1/report_part1.txt
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# giit push
+[?2004lEnumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 1.35 KiB | 1.35 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Huanchez/eltex_practice.git
+   f1d7fbf..f585785  main -> main
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# git pushcommit -m "Add first practice"status[1Padd *statuslscd task1lsgit statuscd module1/[1Pgit status[5Pcleard eltex_practice/exitscp -P 44556 eltex-pg2-v10@217.71.138.1:~/eltex-pg2-v10_part.log ./module1/task1/[A]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# exit
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd eltex_practice/leargit statuscd module1/[1Pgit statuslscd task1lsgit status[1Padd *statuscommit -m "Add first practice"pushgit pushcommit -m "Add first practice"status[1Padd *statuscommit -m "Add first practice"pushclear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1/task1root@eltex-practice2-pg2-v10:~/eltex_practice/module1/task1# cd ..c
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice/module1root@eltex-practice2-pg2-v10:~/eltex_practice/module1#  cd ..cd
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# cd ..cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# mkdir -~/qeltezx_practice/_clone && cd ~/eltex_practice/_clone
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git clone https://github.com/Huanchez/eltex_practice[A]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# [C[C[C[C[C[C[C[C[C[Chttps://github.com/Huanchez/eltex_practice .[C. .g .i .t .
+[?2004lCloning into '.'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects:   9% (1/11)remote: Counting objects:  18% (2/11)remote: Counting objects:  27% (3/11)remote: Counting objects:  36% (4/11)remote: Counting objects:  45% (5/11)remote: Counting objects:  54% (6/11)remote: Counting objects:  63% (7/11)remote: Counting objects:  72% (8/11)remote: Counting objects:  81% (9/11)remote: Counting objects:  90% (10/11)remote: Counting objects: 100% (11/11)remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects:  12% (1/8)remote: Compressing objects:  25% (2/8)remote: Compressing objects:  37% (3/8)remote: Compressing objects:  50% (4/8)remote: Compressing objects:  62% (5/8)remote: Compressing objects:  75% (6/8)remote: Compressing objects:  87% (7/8)remote: Compressing objects: 100% (8/8)remote: Compressing objects: 100% (8/8), done.
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0 (from 0)
+Receiving objects:   9% (1/11)Receiving objects:  18% (2/11)Receiving objects:  27% (3/11)Receiving objects:  36% (4/11)Receiving objects:  45% (5/11)Receiving objects:  54% (6/11)Receiving objects:  63% (7/11)Receiving objects:  72% (8/11)Receiving objects:  81% (9/11)Receiving objects:  90% (10/11)Receiving objects: 100% (11/11)Receiving objects: 100% (11/11), done.
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ls
+[?2004lREADME.md  module1
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# сдуфкclear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# tocuch test-file.txt
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# echo test-file.txt [1@"[1@"[1@N[1@e[1@s[1@s[1P[1P[1P[1P[1@M[1@e[1@s[1@s[1@a[1@g[1@e[1@ [1@f[1@o[1@r[1@ [1@t[1@e[1@s[1@t[1@ [1@f[1@e[1@t[1@c[1@h[C[1@ [1@>[1@>[1@ 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# cd eltex_practice
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git sttatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# git status[5Pcd ..git statusgit status[5Pcd ..git statusls
+[?2004leltex_practice        etc_backup.tar.7z   etc_backup_7zip  practice2_eltex-pg2-v10_part1.log
+eltex_practice_clone  etc_backup.tar.bz2  etc_backup_gzip  practice2_eltex-pg2-v10_part2.log
+etc_backup            etc_backup.tar.gz   etc_motd         practice2_eltex-pg2-v10_part3.log
+[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# cdclear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# cd eltex_practice
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# ls
+[?2004lREADME.md  module1  test-file.txt
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test-file.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git add .
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git commit -m ""A"d"d" "t"e"s"t" "f"i"l"e"
+[?2004l[main 9b6ab67] Add test file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test-file.txt
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Huanchez/eltex_practice.git
+   f585785..9b6ab67  main -> main
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# cd ../eltex_practice_clone/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# clear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git fretch
+[?2004lremote: Enumerating objects: 4, done.
+remote: Counting objects:  25% (1/4)remote: Counting objects:  50% (2/4)remote: Counting objects:  75% (3/4)remote: Counting objects: 100% (4/4)remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects:  50% (1/2)remote: Compressing objects: 100% (2/2)remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+From https://github.com/Huanchez/eltex_practice
+   f585785..9b6ab67  main       -> origin/main
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git log origin/main
+[?2004l[?1h=commit 9b6ab67ef5f0e145878e56ad661418a7cfaf559b (origin/main, origin/HEAD)
+Author: Huanchez <pya201204@yandex.ru>
+Date:   Tue Oct 28 14:00:23 2025 +0000
+
+    Add test file
+
+commit f585785d7b1d054dc7509e9165f4385f5cbadbc2 (HEAD -> main)
+Author: Huanchez <pya201204@yandex.ru>
+Date:   Tue Oct 28 13:46:31 2025 +0000
+
+    Add first practice
+
+commit f1d7fbfd267862a4a81a05fa172054ae8aed1b92
+Author: Huanchez <pya201204@yandex.ru>
+Date:   Tue Oct 28 12:35:34 2025 +0000
+
+    first commit
+[?1l>[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git diff main origin/main
+[?2004l[?1h=diff --git a/test-file.txt b/test-file.txt
+new file mode 100644
+index 0000000..6b80c24
+--- /dev/null
++++ b/test-file.txt
+@@ -0,0 +1 @@
++Message for test fetch
+[?1l>[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# ]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git merge origin/main
+[?2004lUpdating f585785..9b6ab67
+Fast-forward
+ test-file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test-file.txt
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v10:~/eltex_practice_clone# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# clear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# ls
+[?2004leltex_practice        etc_backup.tar.bz2  etc_motd
+eltex_practice_clone  etc_backup.tar.gz   practice2_eltex-pg2-v10_part1.log
+etc_backup            etc_backup_7zip     practice2_eltex-pg2-v10_part2.log
+etc_backup.tar.7z     etc_backup_gzip     practice2_eltex-pg2-v10_part3.log
+[?2004h]0;root@eltex-practice2-pg2-v10: ~root@eltex-practice2-pg2-v10:~# exirt
+[?2004lexit
+
+Script done on 2025-10-28 14:07:05+00:00 [COMMAND_EXIT_CODE="0"]
+iceroot@eltex-practice2-pg2-v10:~/eltex_practice# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[A]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# "echo "# Осенняя практика в Eltex" >> README.md [A]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# "echo "# Осенняя практика в Eltex" >> README.md
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# "echo "# Осенняя практика в Eltex" >> README.md
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@'[1P[1@'[C[1P
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git init
+[?2004lInitialized empty Git repository in /root/eltex_practice/.git/
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git add ReEADME.md
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git commit -m ""f"i"r"s"t" "c"o"m"m"i"t"
+[?2004l[main (root-commit) f1d7fbf] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# fit barcgit branch - M main
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git remote add origin git remote add origin https://github.com/Huanchez/eltex_practice.git[A]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git remote add origin https://github.com/Huanchez/eltex_practice.git
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# git push -u origin main
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 259 bytes | 259.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Huanchez/eltex_practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# clear
+[?2004l[H[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# mkdir -p module1/task1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# mkdir -p module1/task1[1P module1/task1[1P module1/task1[1Pmodule1/task1[C[C[C[C[C[C[C[C[C[C[C[C[C[C2
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# mkdir module1/task23
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v10: ~/eltex_practiceroot@eltex-practice2-pg2-v10:~/eltex_practice# [?2004l
+exit

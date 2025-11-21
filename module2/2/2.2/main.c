@@ -11,11 +11,9 @@ int main(void) {
         printf("Введите первый операнд, операцию, второй операнд: ");
         if (scanf("%lf %c %lf", &num1, &oper, &num2) != 3) {
             puts("Ошибка ввода. Пример: 2.5 + 3");
-            // очистка хвоста строки
             int c; while ((c = getchar()) != '\n' && c != EOF) {}
             continue;
         }
-        // очистка хвоста строки после успешного scanf
         int c; while ((c = getchar()) != '\n' && c != EOF) {}
 
         switch (oper) {

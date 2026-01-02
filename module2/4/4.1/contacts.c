@@ -1,6 +1,6 @@
 #include "contacts.h"
 
-/* ===== Утилиты ===== */
+/* Утилиты */
 static void safe_copy(char *dst, size_t cap, const char *src) {
     if (!dst || cap == 0) return;
     if (!src) { dst[0] = '\0'; return; }
@@ -8,7 +8,7 @@ static void safe_copy(char *dst, size_t cap, const char *src) {
 }
 
 
-/* Копирование Contact (с учётом лимитов списков) */
+/* Копирование сontact  */
 static void contact_copy(Contact *dst, const Contact *src) {
     *dst = (Contact){0};
 
@@ -31,8 +31,7 @@ static void contact_copy(Contact *dst, const Contact *src) {
         safe_copy(dst->socials[i], sizeof(dst->socials[i]), src->socials[i]);
 }
 
-/* Ключ сортировки (упорядоченность списка):
-   surname -> name -> middlename -> id (для стабильности) */
+/* Упорядоченность списка */
 static int contact_cmp_key(const Contact *a, const Contact *b) {
     int r = strcmp(a->surname, b->surname);
     if (r != 0) return r;
@@ -70,7 +69,7 @@ static void list_insert_sorted(ContactBook *cb, ContactNode *node) {
         cur = cur->next;
     }
 
-    /* вставка в конец */
+    /* Вставка в конец */
     node->prev = cb->tail;
     node->next = NULL;
     cb->tail->next = node;
@@ -89,7 +88,7 @@ static void list_unlink(ContactBook *cb, ContactNode *node) {
     node->prev = node->next = NULL;
 }
 
-/* ===== API ===== */
+/* API */
 void cb_init(ContactBook *cb) {
     if (!cb) return;
     cb->head = NULL;
@@ -177,7 +176,7 @@ bool cb_remove(ContactBook *cb, unsigned int id) {
     return true;
 }
 
-/* ===== Печать ===== */
+/* Печать */
 void cb_print_one(const Contact *c) {
     if (!c) return;
     printf("[%u] %s %s", c->id, c->surname, c->name);
